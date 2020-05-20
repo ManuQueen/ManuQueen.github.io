@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nancy Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- text -->
+  <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="">
+  <script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+  <script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+  <script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+
+
+
+   <!-- Template css Files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+
+  <!-- coming css Files -->
+  <link rel="stylesheet" href="css/coming_soon.css" type="text/css">
+
+   <!--  technology css Files -->
+  <link rel="stylesheet" href="css/technology.css" type="text/css">
+
+ 
+
+  <!-- Live Style Switcher - Demo Only -->
+  <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+  <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+
+
+
+
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+
+<!-- Main Conatiner -->
+<div class="main-container">
+   <!-- Aside   -->
+   <div class="aside">
+       
+
+       <!--Nav Toggler Btn -->
+       <!--Nav Toggler Btn -->
+       <div class="nav-toggler">
+         <!-- <span></span> -->
+         <i class="fa fa-bars iconFa"></i>
+         <!-- <i class="fa fa-close"></i> -->
+       </div>
+
+       <!-- <li><a href="#"><i class="fa fa-bars"></i></a></li> -->
+      
+       
+
+       <!--Nav -->
+       <ul class="nav">
+         <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+         <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+         <li><a href="#services"><i class="fa fa-list"></i> Things I Do</a></li>
+         <li><a href="#portfolio"><i class="fa fa-briefcase"></i> What I did</a></li>
+         <li><a href="#blog"><i class="fa fa-newspaper-o"></i> Blog</a></li>
+         <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+       </ul>
+       
+
+       <!-- Copyright  -->
+       <div class="copyright-text">
+        Made with <i class="fa fa-heart"></i> &copy; Nancy
+       </div>
+   </div>
+   <!-- Aside End  -->
+   
+   <!-- Main Content   -->
+   <div class="main-content">
+       <!--  Home Section  -->
+       <!-- hidden -->
+       <section class="home section active" id="home">
+          <div class="container">
+            <div class="intro">
+              <div class="name">
+                <a class="name">Nancy</a>
+              </div>
+              <p>Hi, I...<br> <span id="writing-text"><span></p>
+              <div class="social-links">
+                <a href="https://twitter.com/nancywhite237" target="_black"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/nancyepey" target="_black"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/happygirlsthatcode?igshid=169x98a5z4dkr" target="_black"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:iamnancycontme@outlook.com? subject=subject text"><i class="fa fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+       </section>
+       <!--  Home Section End -->
+
+       <!--  About Section  -->
+       <!-- hidden -->
+       <section class="about section" id="about">
+         <div class="container">
+
+           <div class="row">
+             <div class="section-title padd-15">
+               <h2>About Me</h2>
+             </div>
+           </div>
+
+           <div class="row">
+             <div class="about-content padd-15">
+
+               <div class="row">
+                 <div class="about-text padd-15">
+                   <h3>I'm  <span>Nancy</span> and I'm a Specialist in need. Generalist at heart.</h3>
+                   <p>
+                     Hello, I am a Software Engineer. Born in Cameroon, I have a B-Tech in Computer (Software) Engineer, ongoing M-Tech in Software Engineer and I am a Passionate programmer. I speak English and understand French, I enjoy studying foreign languages, and I am facing some challenges in learning Spanish, German, Korean, and many more but will soon master them. I like the software develoment process and I mostly use HTML, CSS, Bootstrap, JavaScript, Ionic, Flutter, PHP, Laravel, Java and Python but I never waste an opportunity to learn a new language or framework, I am currently learning some interesting stuffs. I also really like designing, UI/UX design, I'm always trying to practice something in Adobe XD or Figma. 
+                   </p>
+                 </div>
+               </div>
+
+               <div class="row">
+                 <div class="personal-info padd-15">
+                   
+                   <div class="row" style="margin-bottom: 50px; ">
+                     <div class="buttons padd-15">
+                       <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                     </div>
+                   </div>
+                 </div>
+
+                 
+               </div>
+                
+                 <div class="row">
+              <div class="work-title padd-15">
+                <h2>Some stuffs I use for fun</h2>
+                <div id="jqcloud" class="jqcloud " style="margin: 0px 0;"></div>
+              </div>
+            </div>
+               
+                
+
+
+
+             </div>
+           </div>
+         </div>
+       </section>
+       <!--  About Section End -->
+
+
+
+       <!--  Service Section  -->
+       <section class="service section" id="services">
+         <div class="container">
+
+           <div class="row">
+             <div class="section-title padd-15">
+               <h2>Things I Do</h2>
+             </div>
+           </div>
+
+           <div class="row">
+            <!-- Service Item -->
+             <div class="service-item padd-15">
+               <div class="service-item-inner">
+                 <div class="icon"><i class="fa fa-laptop"></i></div>
+                 <h4>Web Design</h4>
+                <p>
+                   
+                 </p>
+               </div>
+             </div>
+             <!-- Service Item End -->
+
+             <!-- Service Item -->
+             <div class="service-item padd-15">
+               <div class="service-item-inner">
+                 <div class="icon"><i class="fa fa-desktop"></i></div>
+                 <h4>Desktop Aplications</h4>
+                 <p>
+                   
+                 </p>
+               </div>
+             </div>
+             <!-- Service Item End -->
+
+             <!-- Service Item -->
+             <div class="service-item padd-15">
+               <div class="service-item-inner">
+                 <div class="icon"><i class="fa fa-code"></i></div>
+                 <h4>Web Development</h4>
+                 <p>
+                   
+                 </p>
+               </div>
+             </div>
+             <!-- Service Item End -->
+
+             <!-- Service Item -->
+             <div class="service-item padd-15">
+               <div class="service-item-inner">
+                 <div class="icon"><i class="fa fa-mobile"></i></div>
+                 <h4>Mobile Development</h4>
+                 <p>
+                   
+                 </p>
+               </div>
+             </div>
+             <!-- Service Item End -->
+
+             <!-- Service Item -->
+             <div class="service-item padd-15">
+               <div class="service-item-inner">
+                 <div class="icon"><i class="fa fa-rocket"></i></div>
+                 <h4>Seo Optimization</h4>
+                 <p>
+                   
+                 </p>
+               </div>
+             </div>
+             <!-- Service Item End -->
+
+             <!-- Service Item -->
+             <div class="service-item padd-15">
+               <div class="service-item-inner">
+                 <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                 <h4>UI Design</h4>
+                 <p>
+                   
+                 </p>
+               </div>
+             </div>
+             <!-- Service Item End -->
+             <div class="clearfix"></div>
+           </div>
+          </div>
+        </section>
+        <!-- Service Section End -->
+
+
+        <!-- Portfolio Section  -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="work-title padd-15">
+                <h2>Things I did for FUN</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="portfolio-filter padd-15">
+                <button type="button" class="active" data-filter="all">All</button>
+                <button type="button" data-filter="web-design">Web Design</button>
+                <button type="button" data-filter="photography">Desktop</button>
+                <button type="button" data-filter="wordpress">UI/UX</button>
+                <button type="button" data-filter="others">Others</button>
+              </div>
+            </div>
+
+
+            <div class="row portfolio_items">
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio10.png" alt="portfolio 10">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>OnmiFood</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="https://demo-omnifood.netlify.app/">Omnifood</a></h4>
+                    <a href="https://demo-omnifood.netlify.app/"><span class="text-secondary">Food Delivery Template</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio1.png" alt="portfolio 1">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Nancy Simple Portfolio</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="https://nancy-simple-portfolio.netlify.app/">Portfolio</a></h4>
+                    <a href="https://nancy-simple-portfolio.netlify.app/"><span class="text-secondary">Black & White Portfolio Theme</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio2.png" alt="portfolio 2">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Outdoor</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">Outdoor</a></h4>
+                    <a href="#"><span class="text-secondary">Nav Design</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio3.png" alt="portfolio 3">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>SignUp Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">SignUp Design</a></h4>
+                    <a href="#"><span class="text-secondary">New Look Design</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio4.png" alt="portfolio 4">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Call to action Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">Testimonials Design</a></h4>
+                    <a href="#"><span class="text-secondary">Flex Deign</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="photography">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio5.png" alt="portfolio 5">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>School Management System Demo</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">Record System</a></h4>
+                    <a href="#"><span class="text-secondary">Student & Teacher Management</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="photography">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio7.png" alt="portfolio 7">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Doctor Patient Info System </h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">Login UI</a></h4>
+                    <a href="#"><span class="text-secondary">Doctor Patient Info Login</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              
+
+              
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="wordpress">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio13.png" alt="portfolio 13">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Food Menu UI</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">UI/UX Design</a></h4>
+                    <a href="#"><span class="text-secondary">Simple Food Menu UI</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="wordpress">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio9.png" alt="portfolio 9">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Login UI</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="#">Login</a></h4>
+                    <a href="#"><span class="text-secondary">Login UI/UX Design</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="others">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio11.png" alt="portfolio 11">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Calculator</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="https://nancy-simplecalc.netlify.app/">Simple Calculator</a></h4>
+                    <a href="https://nancy-simplecalc.netlify.app/"><span class="text-secondary">Calculator Design & Dev</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="others">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio12.png" alt="portfolio 12">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Tictac</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="https://nancy-hardtictac.netlify.app/">Unbeatable Tictac</a></h4>
+                    <a href="https://nancy-hardtictac.netlify.app/"><span class="text-secondary">Hard Tictac simple design & dev</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="others">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/portfolio14.png" alt="portfolio 14">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Currency Converter</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                    <h4 class="text-uppercase"><a href="https://nancy-currencyconverter.netlify.app/">Currency Converter</a></h4>
+                    <a href="https://nancy-currencyconverter.netlify.app/"><span class="text-secondary">Simple but effective converter</span></a>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+
+              
+            </div>
+
+          </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+
+        <!-- Blog Section -->
+        <section class="blog section" id="blog">
+          <div class="container container-coming-soon">
+            <span class="circle"></span>
+            <span class="msg">COMING SOON</span>
+            <span class="notifymsg">GET NOTIFIED WHEN IT'S READY</span>
+            <span  id="field">
+              <form class="field" >
+                <input type="email" name="email" placeholder="ENTER YOUR EMAIL" id="email">
+                <button type="button"  class="notify">NOTIFY ME</button>
+              </form>
+              
+            </span>
+          </div>
+        </section>
+
+        <!-- Blog Section End -->
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            
+
+            <!-- Begin of education & experience -->
+               <div class="row">
+                 <div class="education padd-15">
+                   <div class="row">
+                     <div class=" padd-15">
+                        <div class="timeline">
+
+                          <!-- Timeline Item -->
+                          
+                         <!-- Timeline Item End -->
+
+                         <!-- Timeline Item -->
+                          <div>
+                            <h4 class="timeline-title">You Got an Idea or a Project?</h4>
+                            <p class="timeline-text">
+                              No time to spare Let's make it a Reality Now!
+                            </p>
+                            <p class="timeline-text">So What are you waiting for?</p>
+                            <p class="timeline-text">Click the button now <br>and let's begin an amazing collaboration</p>
+                         </div>
+                         <!-- Timeline Item End -->
+                       </div>
+                       <div class="timeline">
+                            
+                            
+                             <p class="timeline-text">You can also contact me through <br>all of my social media accounts</p>
+                             <p class="timeline-text">I will be honoured to hear from you</p>
+                         </div>
+                     </div>  
+                   </div>
+                 </div>
+
+                 <div class="experience padd-15">
+                   
+                   <div class="row">
+                     <div class=" padd-15">
+                        <div class="timeline ">
+
+                          <!-- Timeline Item -->
+                          <div class="item">
+                            
+                            <h3 class="timeline-title">Want to work with me?</h3>
+                            <p class="timeline-text">
+                              I'm currently available for work.
+                            </p>
+                            <div style="height: 20px;"></div>
+                            <a href="mailto:iamnancycontme@outlook.com? subject=subject text" data-section-index="1" class="btn hire-me" style="    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px; margin-bottom: 10px;">START NOW</a>
+                         </div>
+                         <!-- Timeline Item End -->
+
+  
+                       </div>
+                     </div>  
+                   </div>
+                 </div>
+               </div>
+
+          </div>
+        </section>
+        <!-- Contact Section End -->
+
+   </div>
+   <!-- Main Content End  -->
+</div>
+<!-- Main Conatiner End -->
+
+
+<!-- Lightbox  -->
+<!-- needs to add class open to be vissible -->
+<div class="lightbox ">
+  <div class="lightbox-content">
+    <div class="lightbox-close">&times;</div>
+    <img src="images/portfolio/1.jpg" class="lightbox-img" onclick="nextItem()">
+    <div class="lightbox-caption">
+      <!-- <div class="caption-text">Web Design</div>
+      <div class="caption-countert">1 of 6</div> -->
+      <div class="caption-text"></div>
+      <div class="caption-counter"></div>
+    </div>
+  </div>
+  <div class="lightbox-controls">
+    <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+    <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+  </div>
+</div>
+<!-- Lightbox End -->
+
+
+<!-- Live Style Switcher - Demo Only -->
+<div class="style-switcher">
+  <div class="toggle-style-switcher">
+    <i class="fa fa-cog fa-spin"></i>
+  </div>
+
+
+
+  <h5>Style Switcher</h5>
+  <!-- Color switcher -->
+  <ul>
+    <li>
+      <a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a>
+    </li>
+    <li>
+      <a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a>
+    </li>
+    <li>
+      <a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a>
+    </li>
+    <li>
+      <a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a>
+    </li>
+    <li>
+      <a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a>
+    </li>
+  </ul>
+  <!-- Dark and light mood switcher -->
+  <h5>Body Skin</h5>
+  <label>
+    <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+    Light
+  </label>
+  <label>
+    <input type="radio" class="body-skin" name="body-style" value="dark">
+    Dark
+  </label>
+
+  <!--Nav Toggler Btn -->
+       <!-- <div class="nav-toggler">
+         <span></span>
+       </div> -->
+
+</div>
+
+<!-- Live Style Switcher - Demo Only End -->
+
+
+<!-- Template JS -->
+<script type="text/Javascript" src="js/script.js"></script>
+
+<!-- Live Style Switcher JS - Demo Only -->
+<script src="js/scriptSwitcher.js"></script>
+
+<!-- Text animation JS  -->
+<script src="js/text.js"></script>
+
+<!-- File saver -->
+<script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+
+
+</body>
+</html>
+

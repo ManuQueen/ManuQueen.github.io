@@ -1,0 +1,30 @@
+/*** teaching ***/
+#technology {
+	/*padding: 6em 4em 3em;*/
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+	margin-top: 30px;
+}
+
+.text-center h2.title{
+	/*color: #595959;*/
+	font-size: 24px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	color: #302e4d;
+	left: 50%;
+}
+
+#technology .tag-line {
+	color: #848282;
+	font-size: 1.4em;
+	position: relative;
+}
+
+#technology .technology-domains {
+	height: 500px;
+	width: auto;
+	margin-top: -4em;
+
+

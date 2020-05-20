@@ -1,0 +1,157 @@
+
+
+.style-switcher {
+	position: fixed;
+	top: 20px;
+	right: 0;
+	z-index: 10;
+	background-color: #ffffff;
+	padding: 15px;
+	border: 1px solid #d4d4e3;	
+	border-right: none;
+	border-radius: 0 0 0 5px;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+
+.style-switcher.open {
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);
+}
+
+.style-switcher h5 {
+	font-size: 16px;
+	color: #302e4d;
+	margin-top: 0;
+	margin-bottom: 8px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e8dfec;
+}
+
+.style-switcher ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-bottom: 5px;
+	list-style: none;
+}
+
+.style-switcher ul li {
+	display: inline-block;
+}
+
+.style-switcher ul li a {
+	height: 30px;
+	width: 30px;
+	display: block;
+	border-radius: 50%;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 2px;
+}
+
+.style-switcher .toggle-style-switcher {
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	background: #ffffff;
+	left: -46px;
+	top: -1px;
+	border: 1px solid #d4d4e3;	
+	border-right: none;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px 0 0 5px;
+}
+
+.style-switcher .toggle-style-switcher .fa {
+	font-size: 20px;
+	line-height: 43px;
+	opacity: 1;
+	
+}
+
+
+.style-switcher.nav-toggler {
+	height: 40px;
+	width: 45px;
+	border: 1px solid #d4d4e3;
+	cursor: pointer;
+	position: fixed;
+	
+	z-index: 11;
+	border-radius: 5px;
+	background-color: #fdf9ff;
+	/*display: -ms-flexbox;
+	display: flex;*/
+	display: none;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.style-switcher.nav-toggler span {
+	height: 2px;
+	width: 18px;
+	display: inline-block;
+	position: relative;
+}
+
+.style-switcher.nav-toggler.open span {
+	background-color: transparent;
+}
+
+.style-switcher.nav-toggler span::before {
+	content: '';
+	height: 2px;
+	width: 18px;
+	position: absolute;
+	top: -6px;
+	left: 0;
+}
+
+.style-switcher.nav-toggler.open span::before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 0px;
+}
+
+
+.style-switcher.nav-toggler span::after {
+	content: '';
+	height: 2px;
+	width: 18px;
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+
+.style-switcher.nav-toggler.open span::after {
+	/*-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: 0px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

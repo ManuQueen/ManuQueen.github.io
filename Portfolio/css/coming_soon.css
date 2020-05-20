@@ -1,0 +1,343 @@
+
+/*------- Light Body -------*/
+
+
+
+.circle {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: #87ceeb;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+}
+
+
+
+/*.circle:after {
+	width: 415px;
+	top:35%;
+	-webkit-filter: blur(14px);
+	opacity: .3;
+}*/
+
+.msg {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #302e4d;
+	letter-spacing: 45px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.notifymsg {
+	font-family: sans-serif;
+	font-size: 12px;
+	/*color: #504e70;*/
+	color: #302e4d;
+	letter-spacing: 2px;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.field {
+	position: absolute;
+	bottom: 22%;
+	left: 54%;
+	transform: translateX(-50%);
+}
+
+.field input {
+	height: 35px;
+	width: 300px;
+	background-color: lightblue;
+	outline: none;
+	border: none;
+	border-radius: 35px;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: #000;
+	letter-spacing: 1px;
+	padding-left: 15px;
+	/*font-weight: 600;*/
+}
+
+.field button {
+	height: 35px;
+	width: 100px;
+	background-color: #87ceeb;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: #302e4d;
+	letter-spacing: 1px;
+	border: none;
+	outline: none;
+	border-radius: 35px;
+	position: relative;
+	left: -100px;
+	/*left: -320px;*/
+	z-index: 999;
+	cursor: pointer;
+}
+
+@media (max-width: 900px) {
+	.field button {
+		bottom: 36px;
+		left: 200px;
+	}
+}
+
+@media (max-width: 510px) {
+	.circle {
+		left: 10%;
+	}
+}
+
+@media (max-width: 460px) {
+	.circle {
+		height: 200px;
+		width: 200px;
+		top: 20%;
+	}
+
+	.field {
+		bottom: 35%;
+		left: 54%;
+	}
+
+	.msg {
+		letter-spacing: 15px;
+	}
+}
+
+@media (max-width: 340px) {
+	.cirle {
+		height: 200px;
+		width: 200px;
+		top: 20%;
+	}
+
+	.field input {
+		width: 200px;
+	}
+
+	.field button {
+		position: absolute;
+		right: -100px;
+		margin-left: -200px;
+		top: 50px;
+		border:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------- Dark Body -------*/
+
+
+
+body.dark .circle {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: linear-gradient(#313247 0%,#19181D 30%);
+	position: absolute;
+	top: 10%;
+	left: 35%;
+}
+
+body.dark .circle:before,
+body.dark .circle:after {
+	content: '';
+	height: 400px;
+	width: 400px;
+	background: linear-gradient(#FFD1DA 0%,#FF849D 5%,#2D2133 25%);
+	border-radius: 50%;
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-filter: blur(7px);
+	z-index: -1;
+}
+
+body.dark .circle:after {
+	width: 415px;
+	top:35%;
+	-webkit-filter: blur(14px);
+	opacity: .3;
+}
+
+body.dark .msg {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 45px;
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+body.dark .notifymsg {
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #FFD1DA;
+	letter-spacing: 2px;
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+body.dark .field {
+	position: absolute;
+	bottom: 10%;
+	left: 54%;
+	transform: translateX(-50%);
+}
+
+body.dark .field input {
+	height: 35px;
+	width: 300px;
+	background-color: #101113;
+	outline: none;
+	border: none;
+	border-radius: 35px;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: white;
+	letter-spacing: 1px;
+	padding-left: 15px;
+}
+
+body.dark  .field button {
+	height: 35px;
+	width: 100px;
+	background-color: #2E2D3B;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: white;
+	letter-spacing: 1px;
+	border: none;
+	outline: none;
+	border-radius: 35px;
+	position: relative;
+	left: -100px;
+	/*left: -320px;*/
+	z-index: 999;
+	cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+	body.dark .field button {
+		bottom: 36px;
+		left: 200px;
+	}
+}
+
+@media (max-width: 510px) {
+	body.dark .circle {
+		left: 10%;
+	}
+}
+
+@media (max-width: 460px) {
+	body.dark .circle,
+	body.dark .circle:before,
+body.dark .circle:after {
+		height: 100px;
+		width: 100px;
+	}
+
+	body.dark .field {
+		bottom: 35%;
+		left: 54%;
+	}
+
+	body.dark .msg {
+		letter-spacing: 15px;
+	}
+}
+
+@media (max-width: 340px) {
+	body.dark .cirle,
+	body.dark .circle:before,
+body.dark .circle:after {
+		height: 100px;
+		width: 100px;
+		top: 50%;
+	}
+
+	body.dark .field input {
+		width: 200px;
+	}
+
+	body.dark .field button {
+		position: absolute;
+		right: -100px;
+		margin-left: -200px;
+		top: 50px;
+		border:0;
+	}
+
+	body.dark .notifymsg {
+		position: absolute;
+		top: 60%;
+	}
+}
+
+@media (max-width: 300px) {
+	body.dark .cirle,
+	body.dark .circle:before,
+body.dark .circle:after {
+		height: 50px;
+		width: 50px;
+		top: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
